@@ -48,19 +48,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: img: https://www.gravatar.com/avatar/6821e9692e3945fd2e97fd5c1d496b29?s=320
-              #img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://www.gravatar.com/avatar/6821e9692e3945fd2e97fd5c1d496b29?s=320
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fa-solid fa-home fa-fw"></i> 首页'
+              - title: '<i class="fa-solid fa-home fa-fw"></i> Homepage'
                 href: /
-              - title: '<i class="fa-solid fa-comment fa-fw"></i> 留言'
+              - title: '<i class="fa-solid fa-comment fa-fw"></i> comments'
                 href: /comments/
-              - title: '<i class="fa-solid fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fa-solid fa-archive fa-fw"></i> archive'
                 href: /archive/
-              - title: '<i class="fa-solid fa-tags fa-fw"></i> 标签'
+              - title: '<i class="fa-solid fa-tags fa-fw"></i> publishment'
                 href: /tags/
-              - title: '<i class="fa-solid fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
