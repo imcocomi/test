@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Comments
-permalink: /comments/
+permalink: /guokai.io/comments/
 ---
 this is comments page
